@@ -1,5 +1,5 @@
-brew
-====
+homebrew-alt
+============
 
 Alternative homebrew tap with various erlang utilities.
 
