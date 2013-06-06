@@ -18,7 +18,7 @@ If the formula conflicts with one from mxcl/master or another tap, you can `brew
 You can also install via URL:
 
 ```
-brew install https://raw.github.com/seryl/alt/master/<formula>.rb
+brew install https://raw.github.com/seryl/homebrew-alt/master/<formula>.rb
 ```
 
 Docs
