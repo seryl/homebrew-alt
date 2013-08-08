@@ -24,7 +24,7 @@ class Erlang < Formula
   homepage 'http://www.erlang.org'
   # Download tarball from GitHub; it is served faster than the official tarball.
   url 'https://github.com/erlang/otp/archive/OTP_R16B01.tar.gz'
-  sha1 'c397c3b4e60874d53e51fd1f3178c3cb49c77e27'
+  sha1 'ddbff080ee39c50b86b847514c641f0a9aab0333'
 
   head 'https://github.com/erlang/otp.git', :branch => 'dev'
 
