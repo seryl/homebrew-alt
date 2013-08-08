@@ -1,38 +1,38 @@
 require 'formula'
 
 class ErlangManuals < Formula
-  url 'http://erlang.org/download/otp_doc_man_R16B.tar.gz'
-  sha1 '48eaf215e5dcae8b4f02cc39ed557ec6f9dd026a'
+  url 'http://www.erlang.org/download/otp_doc_man_R16B01.tar.gz'
+  sha1 '57ef01620386108db83ef13921313e600d351d44'
 end
 
 class ErlangHtmls < Formula
-  url 'http://erlang.org/download/otp_doc_html_R16B.tar.gz'
-  sha1 '14729a486f331678d2c7ae1ca1608b7e9f3fd8f2'
+  url 'http://www.erlang.org/download/otp_doc_html_R16B01.tar.gz'
+  sha1 '6741e15e0b3e58736987e38fb8803084078ff99f'
 end
 
 class ErlangHeadManuals < Formula
   url 'http://erlang.org/download/otp_doc_man_R16B.tar.gz'
-  sha1 '48eaf215e5dcae8b4f02cc39ed557ec6f9dd026a'
+  sha1 '57ef01620386108db83ef13921313e600d351d44'
 end
 
 class ErlangHeadHtmls < Formula
-  url 'http://erlang.org/download/otp_doc_html_R16B.tar.gz'
-  sha1 '14729a486f331678d2c7ae1ca1608b7e9f3fd8f2'
+  url 'http://www.erlang.org/download/otp_doc_man_R16B01.tar.gz'
+  sha1 '6741e15e0b3e58736987e38fb8803084078ff99f'
 end
 
 class Erlang < Formula
   homepage 'http://www.erlang.org'
   # Download tarball from GitHub; it is served faster than the official tarball.
-  url 'https://github.com/erlang/otp/archive/OTP_R16B.tar.gz'
-  sha1 '546e8538aa17b8b9212c6cd2ba6781c553c623a5'
+  url 'https://github.com/erlang/otp/archive/OTP_R16B01.tar.gz'
+  sha1 'c397c3b4e60874d53e51fd1f3178c3cb49c77e27'
 
   head 'https://github.com/erlang/otp.git', :branch => 'dev'
 
-  bottle do
-    sha1 '69f32b53b5b0d1abab749e1316e35cc65e99edaf' => :mountain_lion
-    sha1 'e36c1ac452ff9b2e476bb620296db9182f814efa' => :lion
-    sha1 '37db8ac8b1bedcb820a24773fb31de6e1c967874' => :snow_leopard
-  end
+  #bottle do
+  #  sha1 '69f32b53b5b0d1abab749e1316e35cc65e99edaf' => :mountain_lion
+  #  sha1 'e36c1ac452ff9b2e476bb620296db9182f814efa' => :lion
+  #  sha1 '37db8ac8b1bedcb820a24773fb31de6e1c967874' => :snow_leopard
+  #end
 
   # remove the autoreconf if possible
   depends_on :automake
